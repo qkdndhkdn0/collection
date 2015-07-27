@@ -12,3 +12,34 @@
 프로그램에서는 일반적으로 ArrayList를 Vector 보다 더 선호하며 ArrayList 는 동기화를 고려하지 않는
 Vector 처럼 동기화 함으로써 스레드 동기화에 따르는 부담을 가지지 않기 때문에 Vector 보다 더 빠르게 실행된다.
 
+
+=======ArrayList 와 배열(Array)의 차이 ==========
+
+[배열]
+1. 선언 : 
+	String[] arr = new String[10];
+2. 길이 : 
+	arr.length
+3. 추가 : 
+	arr[i] = "샘플"
+4. 삭제 : 
+	arr[i] =  null
+5. 검색 : 
+	boolean flag = false;
+	for(String str : arr){
+		if("검색어".equals(str)){
+			flag = true;
+			break;
+		}
+		
+[ArrayList]
+1. 선언 :
+	List<String> list = new ArrayList<String>();
+2. 길이 :
+	list.size();
+3. 추가 :
+	list.add("샘플");
+4. 삭제 :
+	list.remove(10); // 인덱스
+5. 찾기 :
+	list.contains("샘플")

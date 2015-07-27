@@ -1,0 +1,18 @@
+컬렉션 인터페이스 Big 3
+List : 순서 o , 중복 o 리스트는 에드
+
+	ArrayList(add), Vector(add), Stack(push / pop), LinkedList
+	
+Set : 순서 x, 중복 x
+	HashSet, TreeSet
+Map : 순서 x, 키중복 x, 값중복 o 맵은 풋
+	키는 set타입 반환
+	값은 Collection 타입 반환 
+	HashMap(put), TreeMap, HashTable, properties
+	
+==========================================================
+
+	자바 문법
+	인터페이스를 구현한 클래스는 인터페이스 타입으로 객체를 생성해야 한다
+	List ◁--- ArrayList, Vector, Stack
+	
